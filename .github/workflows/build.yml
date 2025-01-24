@@ -38,3 +38,6 @@ jobs:
       - name: list images
         run: |
           docker images
+      - name: echo version
+        run: |
+          echo $VERSION
